@@ -1,8 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Match, Miss } from 'react-router';
-import HomePage from './homepage.js'
-import NotFound from './notfound.js'
-import ComingSoon from './comingsoon.js'
+import Tickets from './tickets/tickets.js'
 
 class MainDisplay extends React.Component {
   render() {
@@ -11,9 +9,8 @@ class MainDisplay extends React.Component {
         <BrowserRouter>
           <div>
           {/* <Match exactly pattern="/" component={HomePage} /> */}
-          <Match exactly pattern="/design/" component={ComingSoon} />
-          <Match exactly pattern="/" component={ComingSoon} />
-          <Miss component={NotFound} />
+          <Match exactly pattern="/" component={Tickets} />
+          <Miss component={Tickets} />
           </div>
          </BrowserRouter>
       </div>

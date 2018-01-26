@@ -9,41 +9,33 @@ class ComingSoon extends React.Component {
           <div className="homepage-main-wrapper card z-depth-3 hoverable">
             <center><i className="fa fa-clock-o" aria-hidden="true"></i></center>
             <h4>Coming Soon!</h4>
-            <p>Sorry this isn't ready yet. Keep checking back!</p>
+            <p>There's some potential here.</p>
           </div>
         </div>
 
         <div className="row">
 
-          <div className="col s3">
-            <a href="#"><div className="homepage-card-wrapper card z-depth-3 hoverable">
-              <center><i className="fa fa-th"></i></center>
-              <h4>One</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <div className="col s4">
+            <a href="http://materializecss.com/" target="_blank"><div className="homepage-card-wrapper card z-depth-3 hoverable">
+              <center><i className="fa fa-paint-brush"></i></center>
+              <h4>Materialize</h4>
+              <p>Materialize is the CSS framework this uses. Click here for the docs.</p>
             </div></a>
           </div>
 
-          <div className="col s3">
+          <div className="col s4">
             <a href="#"><div className="homepage-card-wrapper card z-depth-3 hoverable">
               <center><i className="fa fa-server"></i></center>
-              <h4>Two</h4>
-              <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+              <h4>React Router</h4>
+              <p>Any component can be called if the URL matches. We can also set a miss which is like a catchall or 404. Example in the src/components/maindisplay.js file.</p>
             </div></a>
           </div>
 
-          <div className="col s3">
-            <a href="/design/"><div className="homepage-card-wrapper card z-depth-3 hoverable">
-              <center><i className="fa fa-paint-brush"></i></center>
-              <h4>Three</h4>
-              <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            </div></a>
-          </div>
-
-          <div className="col s3">
-            <a href="/quickref/"><div className="homepage-card-wrapper card z-depth-3 hoverable">
-              <center><i className="fa fa-wrench"></i></center>
-              <h4>QuickRef</h4>
-              <p>These are tools that ProServe uses.</p>
+          <div className="col s4">
+            <a href="#"><div className="homepage-card-wrapper card z-depth-3 hoverable">
+              <center><i className="fa fa-gears"></i></center>
+              <h4>Functions</h4>
+              <p>I use javascript/jquery functions exported in various files and imported where needed. For example I'm importing functions for the quote generator into src/components/footer.js from the functions.js file defined in there.</p>
             </div></a>
           </div>
 

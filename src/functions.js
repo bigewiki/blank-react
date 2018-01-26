@@ -51,39 +51,3 @@ export function regenQuote() {
     $('.tooltipped').tooltip({delay: 50});
   });
 }
-
-      /******************/
-      /** email address display loop
-      /******************/
-
-export function brandSwitch() {
-
-
-$('.brandswitch').html("Updated Text");
-
-  setTimeout(function(){
-  $('.brandswitch').html("hostmonster.com");
-  },1000);
-
-  setTimeout(function(){
-  $('.brandswitch').html("justhost.com");
-  },2000);
-
-  setTimeout(function(){
-  $('.brandswitch').html("bluehost.com");
-  },3000);
-
-  setInterval(function(){
-    setTimeout(function(){
-    $('.brandswitch').html("hostmonster.com");
-    },1000);
-
-    setTimeout(function(){
-    $('.brandswitch').html("justhost.com");
-    },2000);
-
-    setTimeout(function(){
-    $('.brandswitch').html("bluehost.com");
-    },3000);
-  },3100);
-}

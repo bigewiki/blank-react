@@ -10,7 +10,6 @@ class App extends React.Component {
     super();
 
     window.addEventListener("load", function() {
-      document.getElementById("bestpractice-focus").style.display="block";
     });
   }
 
